@@ -1,6 +1,5 @@
 from fractions import Fraction
 
-
 # Generate binomial coefficients (n choose k) for n, k < 100
 memo = {}
 def binom(n, k):
@@ -114,6 +113,6 @@ def G_prime(p, d):
 d = 9
 for p in [103, 107, 109, 113, 127, 131]:
     g = G_prime(p, d)
-    print(f'G({p}, {d}) = {g}')
+    print(f'|G({p}, {d})| = {g}')
     
     
